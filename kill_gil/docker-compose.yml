@@ -1,0 +1,10 @@
+name: pycon2024_kil_gil
+
+services:
+  sandbox:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/app
+    shm_size: 512m
