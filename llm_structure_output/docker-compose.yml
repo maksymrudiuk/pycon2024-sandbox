@@ -1,4 +1,4 @@
-name: pycon2024_kil_gil
+name: pycon2024_llm_structure_output
 
 services:
   sandbox:

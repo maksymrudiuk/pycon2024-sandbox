@@ -1,0 +1,18 @@
+[project]
+dependencies = [
+    "instructor>=1.7.0",
+    "openai>=1.58.1",
+    "pydantic>=2.10.3",
+    "python-dotenv>=1.0.1",
+]
+description = "Sandbox 2"
+name = "sandbox_2"
+requires-python = ">=3.12"
+version = "1.0.0"
+
+[tool.uv]
+dev-dependencies = []
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel", "uv"]
